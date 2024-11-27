@@ -1,0 +1,94 @@
+#Invoice-POS {
+    box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+    padding: 8mm; /* Increased padding for more spacing */
+    margin: 0 auto;
+    width: 90mm; /* Increased width */
+    background: #fff;
+}
+
+::selection {
+    background: #f31544;
+    color: #fff;
+}
+::-moz-selection {
+    background: #f31544;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2em; /* Larger heading */
+    color: #222;
+}
+h2 {
+    font-size: 1.2em; /* Larger subheading */
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 2em;
+}
+p {
+    font-size: 1em; /* Larger paragraph text */
+    color: #666;
+    line-height: 1.5em;
+}
+#top,
+#mid,
+#bot {
+    border: 1px solid #eee; /* Defined border */
+    padding: 10px; /* Added padding for spacing */
+    margin-bottom: 10px;
+}
+
+#top .logo {
+    height: 80px; /* Increased logo size */
+    width: 80px;
+    border-radius: 20%;
+    background: url(https://c8.alamy.com/comp/2E30JPB/initial-letter-b-logo-icon-vector-2E30JPB.jpg) no-repeat;
+    background-size: 70px 70px;
+}
+.clientlogo {
+    float: left;
+    height: 80px; /* Increased client logo size */
+    width: 80px;
+    background: url(https://cdn.prod.website-files.com/62d94a65a0e0d836f595e9bc/64e4e014e11602b5c1fe2353_Client-communication-thumbnail.jpg)
+        no-repeat;
+    background-size: 80px 80px;
+    border-radius: 50px;
+}
+.info {
+    display: block;
+    margin-left: 0;
+    font-size: 1.1em; /* Increased size */
+}
+.title {
+    float: right;
+}
+.title p {
+    text-align: right;
+    font-size: 1em; /* Larger text */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1em; /* Larger table text */
+    margin-top: 10px;
+}
+.tabletitle {
+    font-size: 1em; /* Increased table title size */
+    background: #eee;
+}
+.service {
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em; /* Larger text for table rows */
+}
+.item {
+    width: 30mm; /* Increased width for better readability */
+}
+.itemtext {
+    font-size: 1em; /* Larger item text */
+}
+#legalcopy {
+    margin-top: 10mm;
+    font-size: 0.9em; /* Slightly larger legal text */
+}
